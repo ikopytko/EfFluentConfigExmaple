@@ -9,7 +9,7 @@ using Test;
 namespace Test.Migrations
 {
     [DbContext(typeof(ShopDbContext))]
-    [Migration("20181128110234_Initial")]
+    [Migration("20181128111602_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
